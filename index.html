@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <!-- -----------------------navigation--------------------------- -->
+    <section class="header"> 
+        <nav>
+            <a href="index.html"><img src="/images/giveindia-logo-v2.jpg" alt="#"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Login/Sign-up</a></li>
+                    <li><a href="">NGO List</a></li>
+                    <li><a href="">For NGOs</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Announcement</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- --------------------------main-page--------------------------------- -->
+        <div class="text-box">
+            <h1>Lets Make World Better Place</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit facere animi doloribus fugiat.<br>vel quis veniam fuga debitis!</p>
+            <a href="" class="hero-btn">DONATE HERE</a>
+        </div>
+    </section>
+    
+<!-- --------------------------------------ngo-list------------------------------------ -->
+    <section class="ngo-list">
+        <h1>NGOs List Around The World</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="ngo-list-col">
+                <h3>World</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus magnam inventore similique ad itaque voluptatem laudantium distinctio, expedita odit mollitia eaque fugiat necessitatibus porro voluptatum quasi architecto sapiente et saepe.</p>
+                <!-- <img src="/images/globe.jpg" alt=""> -->
+            </div>
+            <div class="ngo-list-col">
+                <h3>India</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus magnam inventore similique ad itaque voluptatem laudantium distinctio, expedita odit mollitia eaque fugiat necessitatibus porro voluptatum quasi architecto sapiente et saepe.</p>
+            </div>
+            <div class="ngo-list-col">
+                <h3>Gujarat</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus magnam inventore similique ad itaque voluptatem laudantium distinctio, expedita odit mollitia eaque fugiat necessitatibus porro voluptatum quasi architecto sapiente et saepe.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- -----------------------------------food-cloathes-medicin-window-------------------------------------- -->
+    <section class="donate">
+            <h1>Donate us we will give it to need ones</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="donate-col">
+                    <img src="/images/pexels-julia-m-cameron-6995301.jpg" alt="#">
+                    <div class="layer">
+                        <h3>FOOD</h3>
+                    </div>
+                </div>
+
+                <div class="donate-col">
+                    <img src="/images/cloath.jpg" alt="#">
+                    <div class="layer">
+                        <h3>CLOTHS</h3>
+                    </div>
+                </div>
+
+                <div class="donate-col">
+                    <img src="/images/volunteer.jpg" alt="#">
+                    <div class="layer">
+                        <h3>MEDICINE</h3>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- --------------------------Top-doner-section-------------------------------------- -->
+
+<section class="testimonials">
+    <h1>Our Top Donner</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> 
+
+
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="/images/bill.jpg" alt="">
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam facere maxime ipsum, dolore perferendis quas quisquam officia atque dolores excepturi culpa delectus rem dolorum ullam maiores nostrum temporibus veniam commodi.</p>
+                <h3>Doner Name</h3>
+                
+            </div>
+        </div>
+
+        <div class="testimonials-col">
+            <img src="/images/doner.jpg" alt="">
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam facere maxime ipsum, dolore perferendis quas quisquam officia atque dolores excepturi culpa delectus rem dolorum ullam maiores nostrum temporibus veniam commodi.</p>
+                <h3>Doner Name</h3>
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ------------------------------voluntter-button---------------------------------- -->
+
+    <section class="cta">
+        <h1>If you want to become volunteer and work with us</h1>
+        <a href="" class="hero-btn">APPLY HERE</a>
+    </section>
+
+
+<!-- ------------------------------footer---------------------------------- -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sit dolore dolorem fugiat velit quo autem a officiis perspiciatis ab <br> nam architecto neque delectus ullam numquam tempora voluptatibus.</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+
+    
+</section>
+
+<!-- ---------------java-script------------------------- -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+
+
+
