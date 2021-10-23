@@ -1,0 +1,66 @@
+*{
+    /* margin: 0px;
+    padding: 0;*/
+  } 
+  body{
+   background-image:url("/images/grassBackground.jpg");
+   background-repeat: no-repeat;
+    
+  }
+  .main-container{
+  /* background-image: url("/cloaths.jpg"); */
+    width: 1200px;
+    height: 1000px;
+    margin: 50px 80px;
+}
+caption{
+  color: yellow;
+  font-weight: 900;
+  font-family:'Courier New', Courier, monospace;
+}
+table{
+    width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse:collapse;  
+    background-color: rgb(181, 236, 179);
+}
+caption{
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+th{
+  background-color: rgb(116, 235, 69);
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr:hover {background-color: #D6EEEE;}
+
+
+
+  /* Note:- */
+  /* border-collapse:collapse; makes border spaces 0px  */
+
+  /* caption (put after table) - adds heading to the table */
+
+  /*    <th colspan="2">Name</th> - merge the table */
+
+  /* <th rowspan="2">Phone</th> merge the raws */
+  /* ------------------------------------------------- */
+  /* tr:nth-child(even) {
+  background-color: #D6EEEE;
+}        
+------------------------------------------
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+------------------------------------------
+-  adds the zebra effects */
+/* ---------------------------------------- */
+
