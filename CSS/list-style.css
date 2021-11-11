@@ -3,12 +3,13 @@
     padding: 0;*/
   } 
   body{
-   background-image:url("/images/grassBackground.jpg");
-   background-repeat: no-repeat;
-    
+   background-image:url("/College-Project/images/grassBackground.jpg");
+   /* background-repeat: no-repeat; */
+   /* background-image: linear-gradient(rgba(180, 178, 50, 0.3),rgba(38, 159, 180, 0.7)),url(/College-Project/images/pexels-rodnae-productions-6646918.jpg); */
+
   }
   .main-container{
-  /* background-image: url("/cloaths.jpg"); */
+  background-image: url("/College-Project/cloaths.jpg");
     width: 1200px;
     height: 1000px;
     margin: 50px 80px;

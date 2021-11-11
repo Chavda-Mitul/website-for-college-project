@@ -88,3 +88,23 @@ h1{
 {
     color: #ffc107;
 }
+button{
+    background-color: #fb2525;
+    padding: 5px;
+    margin: auto;
+    height: 30px;
+    width: 342px;
+    border-radius:11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+   
+    
+}
+button:hover{
+    background-color: #f10909;
+}
+
