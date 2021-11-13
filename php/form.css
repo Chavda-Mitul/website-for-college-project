@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
-font-family: 'Roboto', sans-serif;
+    max-height: 629px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
